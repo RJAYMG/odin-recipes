@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: aliceblue;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px;
+    background-color: beige;
+    border-radius: 10px;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.header {
+    color: darksalmon;
+    font-size: 4em;
+}
+
+a:link {
+    color: darksalmon;
+    font-size: 2em;
+    text-decoration: none;
+}
+
+a:visited {
+    color: chocolate;
+}
